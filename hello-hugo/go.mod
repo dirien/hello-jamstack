@@ -1,4 +1,4 @@
-module github.com/hello-jamstack/hello-hugo
+module github.com/hello-jamstack
 
 go 1.16
 
