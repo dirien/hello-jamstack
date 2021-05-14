@@ -2,10 +2,11 @@ baseURL: "/"
 languageCode: "en-us"
 title: "Engin Diri"
 enableInlineShortcodes: true
+theme: "m10c"
 
-module:
-  imports:
-    path: "github.com/vaga/hugo-theme-m10c"
+#module:
+#  imports:
+#    path: "github.com/vaga/hugo-theme-m10c"
 
 params:
   author: "Engin Diri"
