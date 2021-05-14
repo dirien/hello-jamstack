@@ -1,3 +1,7 @@
 .idea
 *.iml
 **/token.json
+**/token
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.backup
