@@ -4,7 +4,7 @@ linktitle: Hugo Quick Start
 date: 2021-05-14
 description: Create a Hugo site using the beautiful Ananke theme.
 categories: [tutorials]
-tags: [quickstart,usage,tutorials]
+tags: [quickstart,hugo,tutorials]
 menu:
 docs:
 parent: "tutorials"

@@ -1,7 +1,6 @@
 baseURL: "/"
 languageCode: "en-us"
 title: "Engin Diri"
-#theme: "m10c"
 enableInlineShortcodes: true
 
 module:
@@ -27,3 +26,6 @@ menu:
     pre: "<i class='fa fa-heart'></i>"
     url: "/tutorials/"
     weight: -110
+  - identifier: "tags"
+    name: "tags"
+    url: "/tags/"
