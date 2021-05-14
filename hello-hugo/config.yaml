@@ -1,0 +1,29 @@
+baseURL: "/"
+languageCode: "en-us"
+title: "Engin Diri"
+#theme: "m10c"
+enableInlineShortcodes: true
+
+module:
+  imports:
+    path: "github.com/vaga/hugo-theme-m10c"
+
+params:
+  author: "Engin Diri"
+  description: "Cloud Native Pilgrim | Kubernetes Enthusiast | Serverless Believer | Developer Advocat @ Schwarz IT | (he/him)"
+
+  social:
+    - icon: "github"
+      name: "dirien"
+      url: "https://github.com/dirien"
+    - icon: "twitter"
+      name: "_ediri"
+      url: "https://twitter.com/_ediri"
+
+menu:
+  main:
+  - identifier: "tutorials"
+    name: "tutorials"
+    pre: "<i class='fa fa-heart'></i>"
+    url: "/tutorials/"
+    weight: -110
