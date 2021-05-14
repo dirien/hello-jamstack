@@ -1,7 +1,7 @@
 [build]
 base    = "hello-hugo"
-publish = "hello-hugo/public/"
-command = "mkdir public;hugo --gc --minify"
+publish = "public"
+command = "hugo --gc --minify"
 
 [context.production.environment]
 HUGO_VERSION = "0.83.1"
