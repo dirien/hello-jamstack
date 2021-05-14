@@ -8,12 +8,11 @@ resource staticWebPage 'Microsoft.Web/staticSites@2020-12-01' = {
   name: 'hello-jamstack'
   properties: {
     repositoryUrl: 'https://github.com/dirien/hello-jamstack'
-    branch: 'master'
+    branch: 'main'
     buildProperties: {
       apiLocation: 'api'
       appLocation: '/hello-hugo'
       appArtifactLocation: 'public'
-
     }
     repositoryToken: repositoryToken
   }
