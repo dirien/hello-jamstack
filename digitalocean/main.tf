@@ -35,3 +35,7 @@ resource "digitalocean_app" "hello-jamstack" {
     }
   }
 }
+
+output "url" {
+  value = digitalocean_app.hello-jamstack.default_ingress
+}
