@@ -1,6 +1,6 @@
 [build]
-base    = "subdirectory"
-publish = "subdirectory/public/"
+base    = "hello-hugo"
+publish = "hello-hugo/public/"
 command = "hugo --gc --minify"
 
 [context.production.environment]
