@@ -23,3 +23,5 @@ resource staticWebPage 'Microsoft.Web/staticSites@2020-12-01' = {
     Environment: 'Development'
   }
 }
+
+output staticWebPage string = staticWebPage.properties.defaultHostname
