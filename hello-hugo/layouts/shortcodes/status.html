@@ -1,0 +1,17 @@
+{{ $id := .Get 0 }}
+
+{{ $jfrog := getJSON "https://faasd.ediri.online/function/faas-cloud-svc-status?" $id }}
+<h1>{{ $jfrog.page.name}}</h1>
+{{ range $jfrog.components }}
+
+<table>
+    <tr>
+        <th>
+            <span>
+                <b>{{ .name}}</b>
+            </span>
+        </th>
+        <th>{{ if eq .status "operational" }}<span>&#128994;</span>{{ else }}<span>&#128308;</span>{{ end }}</th>
+    </tr>
+</table>
+{{ end }}
