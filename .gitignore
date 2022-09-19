@@ -5,3 +5,5 @@
 **/.terraform/
 **/terraform.tfstate
 **/terraform.tfstate.backup
+**/public
+**/.hugo_build.lock
